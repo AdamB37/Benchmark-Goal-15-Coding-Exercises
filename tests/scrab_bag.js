@@ -7,6 +7,6 @@ describe('scrabBag', () => {
   })
 
   it('should return a list of tiles remaining', () => {
-    expect(scrabBag('AERETOXMYCNS_B')).to.equal('10: E\n9: I\n8: A\n7: O\n5: R, N, T\n4: U, L, D\n3: G, S\n2: P, H, F, V, W\n1: B, Y, J, K, M, Q, C, Z, _\n0: X')
+    expect(scrabBag('AERETOXMYCNS_B')).to.equal('10: E\n9: I\n8: A\n7: O\n5: N, R, T\n4: D, L, U\n3: G, S\n2: F, H, P, V, W\n1: B, C, J, K, M, Q, Y, Z, _\n0: X')
   })
 })

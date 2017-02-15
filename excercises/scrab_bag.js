@@ -54,6 +54,6 @@ export default function scrabBag(string) {
       output += key + ': ' + string + '\n'
     }
   }
-
+  output = output.slice(0,-1)
   return output
 }
