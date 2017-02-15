@@ -51,7 +51,7 @@ export default function scrabBag(string) {
     string = string.slice(0,-2)
 
     if(string.length) {
-      output = key + ': ' + string + '\n'
+      output += key + ': ' + string + '\n'
     }
   }
 

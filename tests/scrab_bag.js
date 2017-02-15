@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import scrabBag from "../excercises/guess"
+import scrabBag from "../excercises/scrab_bag"
 
 describe('scrabBag', () => {
   it('exists', () => {
