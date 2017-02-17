@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import resolveSymlink from '../excercises/resolving_symlinks'
 
-describe.only('resolveSymLink', () => {
+describe('resolveSymLink', () => {
   it('exists', () => {
     expect(resolveSymlink).to.be.a('function')
   })
