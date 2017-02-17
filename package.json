@@ -1,0 +1,30 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark 15 coding excercises",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamB37/Benchmark-Goal-15-Coding-Exercises.git"
+  },
+  "author": "Adam Beshir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdamB37/Benchmark-Goal-15-Coding-Exercises/issues"
+  },
+  "homepage": "https://github.com/AdamB37/Benchmark-Goal-15-Coding-Exercises#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register ./tests/*.js"
+  }
+}
