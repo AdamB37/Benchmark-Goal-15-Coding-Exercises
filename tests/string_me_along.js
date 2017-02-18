@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import stringMeAlong from '../excercises/string_me_along'
 
-describe.only('stringMeAlong', () => {
+describe('stringMeAlong', () => {
   it('exist', () => {
     expect(stringMeAlong).to.be.a('function')
   })
