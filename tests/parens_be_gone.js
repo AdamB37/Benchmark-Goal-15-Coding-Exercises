@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import parensBeGone from '../excercises/parens_be_gone'
 
-describe.only('parensBeGone', () => {
+describe('parensBeGone', () => {
   it('exists', () => {
     expect(parensBeGone).to.be.a('function')
   })
