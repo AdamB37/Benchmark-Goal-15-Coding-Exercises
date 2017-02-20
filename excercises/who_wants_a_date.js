@@ -166,8 +166,7 @@ function formatFive(date) {
   }
   return year + '-' + month + '-' + day
 }
-
-while(dates.length>1) {
-  console.log(dates.length);
-  fs.appendFile('./output.txt', whoWantsADate(dates.shift()) + '\n', 'utf-8')
-}
+//
+// while(dates.length>1) {
+//   fs.appendFile('./output.txt', whoWantsADate(dates.shift()) + '\n', 'utf-8')
+// }
