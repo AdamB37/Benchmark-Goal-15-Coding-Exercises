@@ -25,7 +25,7 @@ describe('whereInTheJson', () => {
   it('exists', () => {
     expect(whereInTheJson).to.be.a('function')
   })
-  it.only('return the path to the value in the json', () => {
+  it('return the path to the value in the json', () => {
     expect(whereInTheJson(json, "1591")).to.equal("works -> 0 -> published")
   })
 })
