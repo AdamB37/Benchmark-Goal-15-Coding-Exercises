@@ -10,7 +10,7 @@ let check = (done, callback) => {
     done(error)
   }
 }
-describe.only('FiniteStateGate', () => {
+describe('FiniteStateGate', () => {
   it('exists', () => {
     expect(FiniteStateGate).to.be.a('function')
   })
