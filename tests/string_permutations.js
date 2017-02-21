@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import stringPermutation from '../excercises/string_permutations'
 
-describe.only('stringPermutation', () => {
+describe('stringPermutation', () => {
   it('exists', () => {
     expect(stringPermutation).to.be.a('function')
   })
