@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import fibonacciBases from '../excercises/fibonacci_bases'
 
-describe('fibonacciBases', () => {
+describe.only('fibonacciBases', () => {
   it('exists', () => {
     expect(fibonacciBases).to.be.a('function')
   })

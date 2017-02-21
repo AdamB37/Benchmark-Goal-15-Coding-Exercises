@@ -26,6 +26,6 @@ describe('whereInTheJson', () => {
     expect(whereInTheJson).to.be.a('function')
   })
   it('return the path to the value in the json', () => {
-    expect(whereInTheJson(json, "1591")).to.equal("works -> 0 -> published")
+    expect(whereInTheJson(json, "4chan")).to.equal("favoriteSites -> 1")
   })
 })
