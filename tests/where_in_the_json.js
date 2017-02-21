@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import whereInTheJson from '../excercises/where_in_the_json'
 
-describe.only('whereInTheJson', () => {
+describe('whereInTheJson', () => {
   let json = `{
     "name": "William Shakespeare",
     "dead" : true,
