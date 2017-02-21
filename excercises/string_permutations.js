@@ -2,7 +2,6 @@ export default function stringPermutation(string) {
   let permutations = []
   function recursivePermutations(array, index) {
     if(index === array.length) {
-      // console.log(array,index);
       permutations.push(array.join(''))
       return
     }
